@@ -3,13 +3,14 @@
 
 ### Activate tensorboard option 
 
-1. On remote server 
+1. Running TensorBoard remotely
 
-- map the remote port to a local port run on local machine and can launch on remote server with 2.1 or 2.2 command
+- When working on a remote server, you can use SSH tunneling to forward the port of the remote server to your local machine at port (port 6006 in this example)
 
 ```bash
 ssh -L 6006:localhost:6006 containner_name
 ```
+-  Then launch on remote server with 2.1 or 2.2 command
 2. On local machine 
 
 - 2.1 Normal tensorboard 
