@@ -1,6 +1,26 @@
 # tutorial
 
 
+### Activate tensorboard option 
+
+1. On reemote server 
+
+map the remote port to a local port run on local machine
+
+```bash
+ssh -L 6006:localhost:6006 containner_name
+```
+2. On local machine 
+
+- 2.1 Normal tensorboard 
+```bash
+ssh -L 6006:localhost:6006 containner_name
+```
+- 2.2 Dev Tensorboard (able to share link)
+
+```bash
+tensorboard dev upload --logdir runs
+```
 
 ### Losses 
 
