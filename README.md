@@ -5,7 +5,7 @@
 
 1. On remote server 
 
-- map the remote port to a local port run on local machine
+- map the remote port to a local port run on local machine and can launch on remote server with 2.1 or 2.2 command
 
 ```bash
 ssh -L 6006:localhost:6006 containner_name
