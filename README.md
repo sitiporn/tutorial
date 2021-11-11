@@ -14,7 +14,7 @@ ssh -L 6006:localhost:6006 containner_name
 
 - 2.1 Normal tensorboard 
 ```bash
-ssh -L 6006:localhost:6006 containner_name
+tensorboard --logdir=runs
 ```
 - 2.2 Dev Tensorboard (able to share link)
 
