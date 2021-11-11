@@ -3,7 +3,7 @@
 
 ### Activate tensorboard option 
 
-1. On reemote server 
+1. On remote server 
 
 map the remote port to a local port run on local machine
 
