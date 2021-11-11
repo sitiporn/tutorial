@@ -27,7 +27,7 @@ tensorboard dev upload --logdir runs
 python3 demo2.py
 ```
 
-Examples after follow instructions
+## Examples after follow instructions
 
 ### Losses 
 
