@@ -21,12 +21,13 @@ tensorboard --logdir=runs
 ```bash
 tensorboard dev upload --logdir runs
 ```
-### Write log to path 
-
+### Usage
+- write log to runs file 
 ```bash
 python3 demo2.py
 ```
 
+Examples after follow instructions
 
 ### Losses 
 
