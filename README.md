@@ -1,4 +1,4 @@
-# tutorial
+# Purpose of this tutorial to help students 
 
 
 ### Activate tensorboard option 
