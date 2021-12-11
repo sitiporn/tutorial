@@ -13,7 +13,7 @@
 ssh -L 6006:localhost:6006 containner_name 
 ```
 or  
-  - remote server_name 
+  - remote server_name (eg. puffer)
   
 ```bash
 ssh -L 6006:localhost:6006 puffer 
