@@ -7,12 +7,13 @@
 
 - When working on a remote server, you can use SSH tunneling to forward the port of the remote server to your local machine at port (port 6006 in this example)
 
+  - containner on remote server 
 ```bash
 ssh -L 6006:localhost:6006 containner_name 
 ```
-or 
-
-
+or  
+  - remote server_name 
+  
 ```bash
 ssh -L 6006:localhost:6006 puffer 
 ```
