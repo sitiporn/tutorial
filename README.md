@@ -8,8 +8,15 @@
 - When working on a remote server, you can use SSH tunneling to forward the port of the remote server to your local machine at port (port 6006 in this example)
 
 ```bash
-ssh -L 6006:localhost:6006 containner_name
+ssh -L 6006:localhost:6006 containner_name 
 ```
+or 
+
+
+```bash
+ssh -L 6006:localhost:6006 puffer 
+```
+
 -  Then launch on remote server with 2.1 or 2.2 command
 2. On local machine 
 
